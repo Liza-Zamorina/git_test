@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic');
+@import "clean.scss";
+
+body {
+  font-family: 'Roboto',sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 99px;
+  line-height: 118px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 80px;
+  color: #F61067;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 67px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 37px;
+}
+
+.service-h {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #F4F4ED;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 12.6px;
+  line-height: 26px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #F61067;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  color: #30233D;
+  padding: 61px 147px;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  height: 144px;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 43px;
+  color: #30124E;
+  text-decoration: none;
+}
+
+.header-link {
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  margin-left: 80px;
+  text-align: center;
+  padding-right: 14px;
+  text-decoration: none;
+}
+
+.phone-img {
+  padding-left: 44px;
+  padding-right: 8px;
+}
+
+.number-link {
+  padding-right: 100px;
+  background-color: white;
+  border: none;
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+.our-service-section {
+  background: url("../assets/bg-photo.png") no-repeat;
+  width: 100%;
+  height: 360px;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 144px;
+  padding: 106px 580px 162px 147px;
+}
+
+.what-we-do-section {
+  text-align: center;
+  margin-top: 108px;
+}
+
+.p-what-we-do {
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 40px;
+  color: #30233D;
+  padding-top: 15px;
+}
+
+.table h5 {
+  color: #30233D;
+}
+
+.pink {
+  color: #F61067;
+}
+
+.purple {
+  color: #5E239D;
+}
+
+.green {
+  color: #00F0B5;
+}
+
+.table {
+  display: flex;
+  justify-content: space-around;
+  margin: 129px auto;
+  flex-wrap: wrap;
+
+  h1 {
+    margin-bottom: 16px;
+  }
+}
+
+.we-are-amazing-section {
+  margin-top: 182px;
+  text-align: center;
+}
+
+.p-amazing {
+  margin-top: 23px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  color: #30233D;
+}
+
+.orange {
+  color: #F67110;
+}
+
+li {
+  p {
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 5px;
+    color: #776C82;
+    margin-top: 27px;
+    margin-right: 46px;
+    text-align: left;
+  }
+
+  img {
+    margin-bottom: 18px;
+  }
+}
+
+.service {
+  display: flex;
+  justify-content: space-around;
+  margin: 129px auto;
+  flex-wrap: wrap;
+}
+
+p .tttt{
+    white-space: pre;
+}
+
+
+
+@media screen and (max-width: 970px) {
+  .header-link, .number-link {
+    display:block; 
+  }
+
+  .our-service-section {
+    margin-top: 95px;
+
+    h2 {
+      font-weight: 400;
+      font-size: 34px;
+      line-height: 50px;
+    }
+  }
+
+  .service-h {
+    font-size: 12px;
+    line-height: 27px;
+  }
+
+  .what-we-do-section {
+    margin-top: 45px;
+  }
+
+  .p-what-we-do {
+    font-size: 17px;
+    line-height: 27px;
+    padding-top: 10px;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 69px;
+    line-height: 95px;
+  }
+
+  h5 {
+    font-size: 9px;
+    line-height: 13px;
+    letter-spacing: 3px;
+  }
+
+  .table {
+    margin: 85px auto;
+  }
+
+  .we-are-amazing-section {
+    margin-top: 95px;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .p-amazing {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .service {
+    margin: 80px auto;
+    li {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 890px) {
+.header-link, .number-link {
+    display: none;
+  }
+}
